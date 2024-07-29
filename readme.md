@@ -1,5 +1,7 @@
 # README
 
+### ⭐️ **Star this repository! It really motivates me to make better explanations and produce more work!!** ⭐️
+
 ## Overview
 
 This repository contains several C programs that perform different tasks:
@@ -70,6 +72,8 @@ The `mario.c` program prints a full pyramid with a gap in the middle of a specif
 
 1. The program prompts the user to enter a height between 1 and 8.
 2. It prints a full pyramid of the specified height with two spaces in the middle.
+
+
 
 ## Credits
 <table>
