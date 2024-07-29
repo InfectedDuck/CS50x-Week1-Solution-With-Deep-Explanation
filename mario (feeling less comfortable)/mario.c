@@ -1,22 +1,33 @@
-#include <cs50.h>
-#include <stdio.h>
+#include <cs50.h> // Include the CS50 library for getting input from the user
+#include <stdio.h> // Include the standard input/output library for printing output
 
-int main (void)
+int main(void)
 {
-    int size;
+    int size; // Variable to store the height of the pyramid
+
+    // Prompt the user to enter a height between 1 and 8 (inclusive)
     do {
-        size=get_int("Height: ");
-    } while(size<1 || size>8);
-    for (int i=0;i<size;i++)
+        size = get_int("Height: "); // Get the height from the user
+    } while (size < 1 || size > 8); // Repeat the prompt if the height is not within the valid range
+
+    // Loop to construct each row of the pyramid
+    for (int i = 0; i < size; i++)
     {
-        for (int j=0;j<size-i-1;j++)
+        // Print spaces before the hashes to align the pyramid to the right
+        for (int j = 0; j < size - i - 1; j++)
         {
-            printf(" ");
+            printf(" "); // Print a space
         }
-        for (int k=0;k<=i;k++)
+
+        // Print hashes for the current row
+        for (int k = 0; k <= i; k++)
         {
-            printf("#");
+            printf("#"); // Print a hash
         }
+
+        // Move to the next line after completing the current row
         printf("\n");
     }
+
+    return 0; // Return 0 to indicate successful completion of the program
 }
