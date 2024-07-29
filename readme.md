@@ -5,7 +5,6 @@
 ## Overview
 
 This repository contains several C programs that perform different tasks:
-
 1. `cash.c` - A program that calculates the minimum number of coins required to give a user change.
 2. `credit.c` - A program that checks the validity of a credit card number using Luhn's Algorithm and identifies the type of card (AMEX, MASTERCARD, VISA).
 3. `hello.c` - A simple program that prompts the user for their name and prints a greeting.
