@@ -10,7 +10,7 @@ This repository contains several C programs that perform different tasks:
 4. `mario_less.c` - A program that prints a half-pyramid of a specified height using hashes.
 5. `mario_more.c` - A program that prints a full pyramid with a gap in the middle of a specified height using hashes.
 
-## Detailed Description
+## Description
 
 ### 1. `cash.c`
 
@@ -66,6 +66,11 @@ The `mario.c` program prints a half-pyramid of a specified height using hashes.
 
 The `mario.c` program prints a full pyramid with a gap in the middle of a specified height using hashes.
 
+#### How it Works
+
+1. The program prompts the user to enter a height between 1 and 8.
+2. It prints a full pyramid of the specified height with two spaces in the middle.
+
 ## Credits
 <table>
   <tr>
@@ -83,11 +88,4 @@ The `mario.c` program prints a full pyramid with a gap in the middle of a specif
     </td>
   </tr>
 </table>
-
-
-#### How it Works
-
-1. The program prompts the user to enter a height between 1 and 8.
-2. It prints a full pyramid of the specified height with two spaces in the middle.
-
 
