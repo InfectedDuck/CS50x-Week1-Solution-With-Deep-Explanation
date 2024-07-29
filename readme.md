@@ -1,1 +1,74 @@
+# README
+
+## Overview
+
+This repository contains several C programs that perform different tasks:
+
+1. `cash.c` - A program that calculates the minimum number of coins required to give a user change.
+2. `credit.c` - A program that checks the validity of a credit card number using Luhn's Algorithm and identifies the type of card (AMEX, MASTERCARD, VISA).
+3. `hello.c` - A simple program that prompts the user for their name and prints a greeting.
+4. `mario_less.c` - A program that prints a half-pyramid of a specified height using hashes.
+5. `mario_more.c` - A program that prints a full pyramid with a gap in the middle of a specified height using hashes.
+
+## Detailed Description
+
+### 1. `cash.c`
+
+#### Purpose
+
+The `cash.c` program calculates the minimum number of coins needed to make change for a given amount of money in cents. It uses U.S. coin denominations (quarters, dimes, nickels, and pennies).
+
+#### How it Works
+
+1. The program prompts the user to enter a non-negative amount of change owed.
+2. The input is validated to ensure it is non-negative.
+3. The program calculates the number of quarters, dimes, nickels, and pennies required to make the change.
+4. The total number of coins is printed.
+
+### 2. `credit.c`
+
+#### Purpose
+
+The `credit.c` program validates a credit card number using Luhn's Algorithm and identifies the card type (AMEX, MASTERCARD, VISA).
+
+#### How it Works
+
+1. The program prompts the user to enter a credit card number.
+2. It checks the validity of the card number using Luhn's Algorithm.
+3. If the card number is valid, it identifies the type of card based on the number's prefix and length.
+4. The program prints the card type or "INVALID" if the card number is not valid.
+
+### 3. `hello.c`
+
+#### Purpose
+
+The `hello.c` program prompts the user for their name and then prints a greeting.
+
+#### How it Works
+
+1. The program prompts the user to enter their name.
+2. It prints "Hello, [name]" using the entered name.
+
+### 4. `mario.c` (feeling less comfortable)
+
+#### Purpose
+
+The `mario.c` program prints a half-pyramid of a specified height using hashes.
+
+#### How it Works
+
+1. The program prompts the user to enter a height between 1 and 8.
+2. It prints a right-aligned half-pyramid of the specified height.
+
+### 5. `mario.c` (feeling more comfortable)
+
+#### Purpose
+
+The `mario.c` program prints a full pyramid with a gap in the middle of a specified height using hashes.
+
+#### How it Works
+
+1. The program prompts the user to enter a height between 1 and 8.
+2. It prints a full pyramid of the specified height with two spaces in the middle.
+
 
