@@ -27,6 +27,11 @@ The `cash.c` program calculates the minimum number of coins needed to make chang
 3. The program calculates the number of quarters, dimes, nickels, and pennies required to make the change.
 4. The total number of coins is printed.
 
+#### Key Points
+
+- Uses U.S. coin denominations: quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢).
+- Implements a greedy algorithm to minimize the number of coins.
+
 ### 2. `credit.c`
 
 #### Purpose
@@ -40,6 +45,14 @@ The `credit.c` program validates a credit card number using Luhn's Algorithm and
 3. If the card number is valid, it identifies the type of card based on the number's prefix and length.
 4. The program prints the card type or "INVALID" if the card number is not valid.
 
+#### Key Points
+
+- Uses Luhn's Algorithm for credit card validation.
+- Identifies card type based on prefix and length:
+  - AMEX: 15 digits, starts with 34 or 37.
+  - MASTERCARD: 16 digits, starts with 51-55.
+  - VISA: 13 or 16 digits, starts with 4.
+
 ### 3. `hello.c`
 
 #### Purpose
@@ -51,31 +64,45 @@ The `hello.c` program prompts the user for their name and then prints a greeting
 1. The program prompts the user to enter their name.
 2. It prints "Hello, [name]" using the entered name.
 
-### 4. `mario.c` (feeling less comfortable)
+#### Key Points
+
+- Demonstrates basic input and output operations in C.
+- Simple example of user interaction.
+
+### 4. `mario_less.c`
 
 #### Purpose
 
-The `mario.c` program prints a half-pyramid of a specified height using hashes.
+The `mario_less.c` program prints a half-pyramid of a specified height using hashes.
 
 #### How it Works
 
 1. The program prompts the user to enter a height between 1 and 8.
 2. It prints a right-aligned half-pyramid of the specified height.
 
-### 5. `mario.c` (feeling more comfortable)
+#### Key Points
+
+- Utilizes loops to print a right-aligned half-pyramid.
+- Emphasizes understanding of nested loops and character output.
+
+### 5. `mario_more.c`
 
 #### Purpose
 
-The `mario.c` program prints a full pyramid with a gap in the middle of a specified height using hashes.
+The `mario_more.c` program prints a full pyramid with a gap in the middle of a specified height using hashes.
 
 #### How it Works
 
 1. The program prompts the user to enter a height between 1 and 8.
 2. It prints a full pyramid of the specified height with two spaces in the middle.
 
+#### Key Points
 
+- Builds on the concepts from `mario_less.c` to create a more complex pattern.
+- Demonstrates control over spacing and alignment in text output.
 
 ## Credits
+
 <table>
   <tr>
     <td><img src="images/CS50x_logo.png" alt="CS50 Logo" width="800" height="300"></td>
@@ -92,4 +119,3 @@ The `mario.c` program prints a full pyramid with a gap in the middle of a specif
     </td>
   </tr>
 </table>
-
