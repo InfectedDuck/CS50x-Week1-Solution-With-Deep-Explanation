@@ -107,7 +107,7 @@ The `mario_more.c` program prints a full pyramid with a gap in the middle of a s
     <td><img src="images/CS50x_logo.png" alt="CS50 Logo" width="800" height="300"></td>
     <td>
       <h3>Credits to CS50x</h3>
-      <p>This project was inspired by and developed as part of the CS50x course offered by Harvard University. Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience..</p>
+      <p>This project was inspired by and developed as part of the CS50x course offered by Harvard University. Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience.</p>
       <ul>
         <li><strong>Course:</strong> CS50x: Introduction to Computer Science</li>
         <li><strong>Institution:</strong> Harvard University</li>
